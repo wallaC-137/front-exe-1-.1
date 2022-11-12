@@ -1,0 +1,21 @@
+{
+  "name": "sabadou-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite -open",
+    "build": "vite build",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-plugin-react": "^7.31.10",
+    "vite": "^3.2.3"
+  },
+  "type": "module"
+}
