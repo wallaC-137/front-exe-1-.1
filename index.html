@@ -4,10 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valodador</title>
+  <title>Validador</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Validador</h1>
+  </header>
+
+  <form>
+    <fieldset>
+      <legend>Digite um valor</legend>
+      <select name="id-validator" id="id-validator">
+        <option value="">Escolha</option>
+        <option value="email">Email</option>
+        <option value="local">Sigla País/Estado</option>
+        <option value="cep">CEP</option>
+        <option value="cel">Celular</option>
+        <option value="numeros">Apenas números</option>
+      </select>
+      <input type="text" name="text-validation" id="texto">
+      <button id="btn-check">consultar</button>
+  </fieldset>
+  </form>
+
+  <h2>...</h2>
+
   <script src="./src/main.js" type="module"></script>
 </body>
 </html>
